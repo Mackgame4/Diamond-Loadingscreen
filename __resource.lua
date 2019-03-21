@@ -4,7 +4,8 @@ files {
     'png.png',
     'gif.gif',
     'video.mp4',
-    'audio.mp3'
+    'audio.mp3',
+    'video.js'
 }
 
 loadscreen 'index.html'
