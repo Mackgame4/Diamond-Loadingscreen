@@ -1,5 +1,3 @@
-<img src="https://pngimage.net/wp-content/uploads/2018/06/%C3%B3culos-pixel-png-3.png" align="right" />
-
 # Diamond Loadingscreen [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 by Mackgame4 (discord.io/mack)
 > This is a simples loadingscreen with a background video, music player and a diamind spining :smiley: 
