@@ -9,16 +9,77 @@
 </head>
 <body>
 
-<video autoplay muted loop id="myVideo">
-  <source src="video.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
+<style>
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+.home-banner .slide .video-slide {
+  background-color: #000; }
+
+.home-banner.loading .video-background {
+  opacity: 0; }
+
+.video-background {
+  position: absolute;
+  top: 44%;
+  left: 0;
+  padding-top: 56.25%;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: 2s opacity ease;
+  transition: 2s opacity ease;
+  opacity: 1; }
+
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; }
+</style>
+
+<section id="home-banner-box" class="home-banner loading">
+	<div class="image video-slide" style="background-image: url($ImageURL)">
+		<div class="video-background">
+			<div class="video-foreground" id="YouTubeBackgroundVideoPlayer">
+		    </div>
+		</div>
+	</div>
+</section>
+
+<script async src="https://www.youtube.com/iframe_api"></script>
+<script async src="video.js"></script>
 
 <div class="content">
   <button id="myBtn" onclick="myFunction()">Play</button>
 </div>
 
-<audio id="myAudio">
+<audio loop id="myAudio">
   <source src="audio.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
@@ -43,12 +104,12 @@ function myFunction() {
 	   	   <img src='gif.gif' style='width:300px;height:300px;'>
     </div>
         <hr style='width:300px'>
-           <div><font face='Permanent Marker' size='15px' style='color: white;'>Base do Mack</font></div>
+           <div><font face='Permanent Marker' size='15px' style='color: white;'>Portucalense Roleplay</font></div>
             <div>
                 <p class='loading' style='color: white;'>A carregar a tua peronagem</p>
             </div>
             <div> 
-                <font face='Montserrat' size="3px" style='color: white;'>discord.io/mack</font>
+                <font face='Montserrat' size="3px" style='color: white;'>discord.io/portucalense</font>
             </div>
   </div>
 </div>
