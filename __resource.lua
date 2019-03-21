@@ -1,12 +1,10 @@
 files {
     'index.html',
-    'keks.css',
-    'bankgothic.ttf',
-    'Discord.png',
-    'Logo.png',
-    'logo.gif',
+    'css/style.css',
+    'png.png',
+    'gif.gif',
     'video.mp4',
-    'audio.mp3
+    'audio.mp3'
 }
 
 loadscreen 'index.html'
